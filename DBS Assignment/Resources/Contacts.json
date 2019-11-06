@@ -1,0 +1,84 @@
+[
+        {
+            "id": "1234",
+            "name": "Francisco Fowler",
+            "phoneNumber": "+91 9812345678",
+            "email": "francisco@gmail.com",
+            "image": "contact1",
+            "favourite": false
+        },
+        {
+            "id": "1345",
+            "name": "Alejandro Tran",
+            "phoneNumber": "+91 9786543210",
+            "email": "alejandro@gmail.com",
+            "image": "contact2",
+            "favourite": false
+        },
+        {
+            "id": "1456",
+            "name": "Luke Haynes",
+            "phoneNumber": "+91 9678543123",
+            "email": "luke@gmail.com",
+            "image": "contact3",
+            "favourite": false
+        },
+        {
+            "id": "1567",
+            "name": "Dawid Mccoy",
+            "phoneNumber": "+91 9567812341",
+            "email": "dawid@gmail.com",
+            "image": "contact4",
+            "favourite": false
+        },
+        {
+            "id": "1678",
+            "name": "Alle Wood",
+            "phoneNumber": "+91 9843123567",
+            "email": "alle@gmail.com",
+            "image": "contact5",
+            "favourite": false
+        },
+        {
+            "id": "1789",
+            "name": "Hida Maxwell",
+            "phoneNumber": "+91 9786541230",
+            "email": "hida@gmail.com",
+            "image": "contact6",
+            "favourite": false
+        },
+        {
+            "id": "1890",
+            "name": "Eugene Vaughn ",
+            "phoneNumber": "+91 9986765432",
+            "email": "eugene@gmail.com",
+            "image": "contact7",
+            "favourite": false
+        },
+        {
+            "id": "1901",
+            "name": "Paulline  Fuller",
+            "phoneNumber": "+91 9567891234",
+            "email": "paulline@gmail.com",
+            "image": "contact8",
+            "favourite": false
+        },
+        {
+            "id": "1012",
+            "name": "Vicia Cox",
+            "phoneNumber": "+91 9987123456",
+            "email": "vicia@gmail.com",
+            "image": "contact9",
+            "favourite": false
+        },
+        {
+            "id": "1034",
+            "name": "Dale Steyn",
+            "phoneNumber": "+91 9809125678",
+            "email": "dale@gmail.com",
+            "image": "contact10",
+            "favourite": false
+        }
+
+]
+
