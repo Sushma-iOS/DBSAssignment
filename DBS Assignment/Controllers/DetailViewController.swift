@@ -47,17 +47,20 @@ class DetailViewController: UIViewController {
         }
     }
     @IBAction func deleteButtonTapped(_ sender: Any) {
-        CoredataManager.shared.deleteContact(Contact.self, idStr: (self.detailViewModel?.id)!)
-        if let callBack = reloadModelViews{
-            callBack()
-        }
-        self.navigationController?.popViewController(animated: true)
+        let alert = UIAlertController(title: Constants.AlertKeys.alertTitle, message: Constants.AlertKeys.alertMessage, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: Constants.AlertKeys.alertDelete, style: UIAlertAction.Style.default, handler: { action in
+            CoredataManager.shared.deleteContact(Contact.self, idStr: (self.detailViewModel?.id)!)
+            if let callBack = self.reloadModelViews{
+                callBack()
+            }
+            self.navigationController?.popViewController(animated: true)
+        }))
+        alert.addAction(UIAlertAction(title: Constants.AlertKeys.alertCancel, style: UIAlertAction.Style.cancel, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
-    
-
 }
-//MARK: - TableView Methods
 
+//MARK: - TableView Methods
 extension DetailViewController: UITableViewDataSource, UITableViewDelegate {
     
     func numberOfSections(in tableView: UITableView) -> Int {

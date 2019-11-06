@@ -20,5 +20,11 @@ struct Constants {
         static let emailKey = "email"
         static let mobileKey = "mobile"
     }
+    struct AlertKeys {
+        static let alertMessage = "Are you sure? you want to delete this Contact"
+        static let alertTitle = "Alert"
+        static let alertDelete = "Delete"
+        static let alertCancel = "Cancel"
+    }
 
 }

@@ -4,7 +4,6 @@ class ViewController: UIViewController, ParsingHandler {
     
     @IBOutlet weak var contactsTable: UITableView!
     var viewModelArray = [ContactsViewModel]()
-    var viewModel: ContactsViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,7 +72,6 @@ class ViewController: UIViewController, ParsingHandler {
         }
         
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            viewModel = viewModelArray[indexPath.row]
         }
 
 }
